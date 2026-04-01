@@ -4,46 +4,43 @@ Thanks for contributing to `awesome-best-ai-tools-for-travel-agents-2026`.
 
 ## Submission Rules
 
-- Every tool must have a public GitHub repository URL on `github.com`.
-- No proprietary SaaS products.
-- No closed-source tools.
-- No listing without a verifiable license.
-- Submissions should be useful for travel agents directly or for the open source AI stack travel agents use.
+- Every submission must include a public `github.com` repository URL.
+- No proprietary SaaS listings. The core tool must exist as an open public GitHub repository.
+- The repo must be relevant to travel-agent workflows such as itinerary generation, destination research, customer support, document processing, translation, routing, transit planning, geocoding, browser automation, or knowledge retrieval.
+- Include the project license, primary language, and a short explanation of why it belongs on this list.
+- If a project is only loosely relevant to travel agents, explain the specific workflow it supports.
 
-## Required Submission Format
+## Preferred Submission Format
 
-Please open a pull request with:
+Use this template in your pull request or issue:
 
-1. Repository name
-2. GitHub URL
-3. Short justification for travel-agent relevance
-4. Stars
-5. Primary language
-6. License
-7. Recent GitHub activity date
-8. Suggested category
+```md
+- Tool name:
+- GitHub URL:
+- License:
+- Primary language:
+- Category:
+- Best for:
+- Why it helps travel agents:
+```
 
 ## Quality Bar
 
-- Prefer maintained repositories over abandoned ones.
-- Prefer original projects over thin wrappers.
-- Be honest about category gaps.
-- Keep descriptions factual and based on the repository README and GitHub metadata.
+- Verify that the repository is still public.
+- Verify that the license is visible on GitHub.
+- Prefer actively maintained projects.
+- Do not submit duplicate repos or thin wrappers around closed products.
 
-## What Will Be Rejected
+## Editing Guidance
 
-- Tools without a GitHub repo
-- SaaS listings with no usable open source repo
-- Spammy SEO additions
-- Duplicate projects
-- Low-signal repos with unclear travel relevance
+- Keep descriptions factual and concise.
+- Use semantic headings and the existing README structure.
+- If a category has fewer than 5 strong repos, document the gap honestly instead of padding the list.
 
-## Development
+## Pull Requests
 
-- Edit `README.md`
-- Keep formatting consistent
-- Preserve the Awesome-style structure
-
-## License
-
-By contributing, you agree that your contributions will be licensed under the MIT License.
+1. Fork the repository.
+2. Create a focused branch.
+3. Update `README.md` and, if needed, this file.
+4. Make sure every added tool includes a GitHub repo URL.
+5. Open a pull request with a brief summary of the change.
